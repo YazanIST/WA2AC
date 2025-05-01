@@ -1,8 +1,29 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: WA2AC
+description: Youtube channel to discuss various problem solving and competitve programming related topics.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: "https://yazanist.github.io"
+baseurl: "/WA2AC"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "GitHub Repo":
+    - "https://github.com/YazanIST/WA2AC"
+  "Youtube Channel":
+    - "https://youtube.com/your-playlist-link"
+
+aux_links_new_tab: true
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "content"
+      type: "pages"
+    values:
+      layout: "default"
+
+search_enabled: true
+enable_copy_code_button: true
+
+mermaid:
+  version: "9.1.6"
